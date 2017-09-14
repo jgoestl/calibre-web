@@ -652,41 +652,7 @@ input:-ms-placeholder {
   padding: 4px;
 }
 
-/* For Amazon Kindle Voyage only */
-@media only screen and (device-height: 1448px) and (device-width: 1072px) {
-    #viewer{
-        width: 80%;
-        margin-left: 10%;
-    }
 
-    #divider,
-    #divider.show {
-        display: none;
-    }
-    
-    
-    #viewer{
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    #prev {
-        left: 20px;
-    }
-
-    #next {
-        right: 20px;
-    }
-    
-    /*#viewer {
-      width: 460px;
-      height: 740px;
-    }
-    #viewer iframe {
-        width: 460px;
-        height: 740px;
-    }*/
-}
 
 @media only screen and (max-width: 1040px) and (orientation: portrait) {
   #viewer{
@@ -853,6 +819,42 @@ and (orientation : landscape)
         width: 256px;
         height: 124px;
     }
+}
+
+/* For Amazon Kindle Voyage only */
+@media only screen and (device-height: 1448px) and (device-width: 1072px) {
+    #viewer{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #divider,
+    #divider.show {
+        display: none;
+    }
+    
+    
+    #viewer{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #prev {
+        left: 20px;
+    }
+
+    #next {
+        right: 20px;
+    }
+    
+    /*#viewer {
+      width: 460px;
+      height: 740px;
+    }
+    #viewer iframe {
+        width: 460px;
+        height: 740px;
+    }*/
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
