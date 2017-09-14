@@ -157,19 +157,6 @@
         </p>
         </div>
       {% endif %}
-      {% if not g.user.is_anonymous() %}
-
-        <div class="custom_columns">
-          <p>
-          <form id="have_read_form" action="{{ url_for('toggle_read', book_id=entry.id)}}" method="POST">
-            <label class="block-label">
-              <input id="have_read_cb" type="checkbox" {% if have_read %}checked{% endif %} >
-              <span>{{_('Read')}}</span>
-            </label>
-          </form>
-          </p>
-        </div>
-      {% endif %}
 
 
       {% if entry.comments|length > 0 and entry.comments[0].text|length > 0%}
