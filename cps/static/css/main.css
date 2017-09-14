@@ -664,6 +664,20 @@ input:-ms-placeholder {
         display: none;
     }
     
+    
+    #viewer{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #prev {
+        left: 20px;
+    }
+
+    #next {
+        right: 20px;
+    }
+    
     /*#viewer {
       width: 460px;
       height: 740px;
