@@ -738,6 +738,14 @@ input:-ms-placeholder {
 }
 
 
+/* For Amazon Kindle Voyage only */
+@media only screen and (device-height: 1448px) and (device-width: 1072px) {
+    #viewer iframe {
+        width: 460px;
+        height: 740px;
+    }
+}
+
 /* For iPad portrait layouts only */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
     #viewer iframe {
