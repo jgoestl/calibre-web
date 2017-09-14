@@ -655,7 +655,7 @@ input:-ms-placeholder {
 
 
 /* For Amazon Kindle Voyage only */
-@media only screen and (device-height: 1448px) and (device-width: 1072px) {
+@media only screen and (device-width: 1072px) {
     #viewer{
         width: 80%;
         margin-left: 10%;
